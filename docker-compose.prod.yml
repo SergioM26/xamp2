@@ -1,8 +1,10 @@
 version: "3.8"
 
+
 services:
   agenda:
     build: .
+    container_name: agenda_prod
     ports:
       - "80:3000"
     volumes:
